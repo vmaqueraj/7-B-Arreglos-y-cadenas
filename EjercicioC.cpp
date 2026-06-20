@@ -12,8 +12,12 @@ int main () {
 		A[i] = f;
 	}
 	
+	p=1;
 	for(int i=0; i<p; i++){
-		
+		if (A[i]==p){
+			cont=cont+1;
+			p=p+1;
+		}
 	}
 	
 	cout << p[i] << "-" << cont[i]; 
