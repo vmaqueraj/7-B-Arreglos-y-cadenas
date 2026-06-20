@@ -5,7 +5,7 @@ using namespace std;
 
 int main () {
 	int p, n, f;
-	int A[101];
+	int A[102];
 	cin>>p>>n;
 	
 	for(int i=0; i<n; i++){
@@ -13,14 +13,9 @@ int main () {
 		A[f] = A[f]+1;
 	}
 	
-	for(int i=0; i<=p; i++){
-		if (A[i]==p){
-			cont=cont+1;
-			p=p+1;
-		}
+	for(int i=1; i<=p; i++){
+		cout << i << "-" << A[i] << endl; 
 	}
-	
-	cout << p[i] << "-" << cont[i]; 
 	
 	return 0;
 }
