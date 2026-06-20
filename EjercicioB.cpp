@@ -13,13 +13,13 @@ int main () {
 	
 	for(int i=0; i<n; i++){
 		cin >> p;
-	}
 	
-	if(Palindromo(p)==true){
-		cout << "P"<<endl;	
-	}
-	else {
-		cout << "NP"<<endl;
+		if(Palindromo(p)==true){
+			cout << "P"<<endl;	
+		}
+		else {
+			cout << "NP"<<endl;
+		}
 	}
 	return 0;
 }
