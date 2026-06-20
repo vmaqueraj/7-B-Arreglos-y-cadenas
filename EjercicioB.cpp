@@ -8,24 +8,19 @@ bool Palindromo(string palabra);
 
 int main () {
 	int n;
-	char palabra[80];
+	string p;
 	cin >> n;
 	
 	for(int i=0; i<n; i++){
-		cin >> palabra[];
-		palabra[] = palabra [i];
+		cin >> p;
 	}
 	
-	for(int i=0; i<n; i++){
-		palabra [i] 
-		if(){
-			cout << "P";	
-		}
-		else {
-			cout << "NP";
-		}
+	if(Palindromo(p)==true){
+		cout << "P"<<endl;	
 	}
-	
+	else {
+		cout << "NP"<<endl;
+	}
 	return 0;
 }
 
