@@ -11,7 +11,9 @@ int main () {
 	getline(cin, texto)
 	
 	for(int i=0; i<texto.length(); i++){
-			
+		if(texto[i] >= 'a' && texto[i] <= 'z'){  // Usa ASCCI 'a'= 97, 'z'= 122
+			contador[texto[i]-'a'] = contador[texto[i]-'a'] + 1; // Cuenta la aparición de cada letra y lo guarda
+		}
 	}
 	
 	
