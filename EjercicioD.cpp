@@ -15,7 +15,7 @@ int main () {
 		A[a] = A[a]+1;
 	}
 	
-	for(int i=1; i<=c; i++){
+	for(int i=1; i<=n; i++){
 		cout << A[i] << endl; 
 	}
 	
