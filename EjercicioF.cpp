@@ -27,6 +27,6 @@ int main () {
 		}
 	}
 	
-	
+	cout << texto;
 	return 0;
 }
