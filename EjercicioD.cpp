@@ -3,10 +3,11 @@
 #include <iostream>
 using namespace std;
 
+int A[1000005]={0}; 
+
 int main () {
 	long long n, c;
 	int a;
-	int A[1000005]={0};
 	
 	cin>>n >> c;
 	
